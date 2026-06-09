@@ -523,7 +523,7 @@ def main():
         
         page = st.radio(
             "Navigation",
-            ["🏟️ Match Prediction", "🏆 Tournament Simulator", "📊 Analytics", "ℹ️ About"],
+            ["🏟️ Match Prediction", "🏆 Tournament Simulator", "📊 Analytics",],
             label_visibility="collapsed"
         )
         
@@ -542,12 +542,12 @@ def main():
         <div style="display:flex;align-items:center;gap:1rem;">
             <span style="font-size:3rem;">⚽</span>
             <div>
-                <h1 class="hero-title">FIFA WORLD CUP 2026</h1>
+                <h1  style="color:#f0ead6";class="hero-title">FIFA WORLD CUP 2026</h1>
                 <p class="hero-subtitle">AI-Powered Match Prediction & Tournament Simulator</p>
             </div>
             <div style="margin-left:auto;text-align:right;">
                 <div style="font-size:0.7rem;color:#8B9BB4;letter-spacing:2px;text-transform:uppercase;margin-bottom:0.3rem;">Powered by</div>
-                <div style="font-size:0.85rem;color:#C9A84C;">XGBoost · ELO · Monte Carlo</div>
+                <div style="font-size:0.85rem;color:#C9A84C;">Lemou Abderahmen</div>
             </div>
         </div>
     </div>
