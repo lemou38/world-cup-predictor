@@ -10,18 +10,18 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 # 2026 World Cup format: 48 teams, 12 groups of 4
 WC2026_GROUPS = {
-    "A": ["Brazil", "Germany", "Senegal", "Canada"],
-    "B": ["France", "Argentina", "Morocco", "Australia"],
-    "C": ["Spain", "Portugal", "Japan", "Ecuador"],
-    "D": ["England", "Netherlands", "South Korea", "Costa Rica"],
-    "E": ["Italy", "Belgium", "Algeria", "USA"],
-    "F": ["Croatia", "Colombia", "Iran", "New Zealand"],
-    "G": ["Uruguay", "Denmark", "Nigeria", "China"],
-    "H": ["Poland", "Switzerland", "Ghana", "Turkey"],
-    "I": ["Mexico", "Sweden", "Tunisia", "Panama"],
-    "J": ["Chile", "Serbia", "Egypt", "Indonesia"],
-    "K": ["Czech Republic", "Austria", "Saudi Arabia", "Venezuela"],
-    "L": ["Ukraine", "Norway", "Peru", "Qatar"],
+    "A": ["Mexico", "South Africa", "South Korea", "Denmark"],
+    "B": ["Canada", "Italy", "Qatar", "Switzerland"],
+    "C": ["Brazil", "Morocco", "Haiti", "Scotland"],
+    "D": ["USA", "Paraguay", "Australia", "Turkey"],
+    "E": ["Germany", "Curacao", "Ivory Coast", "Ecuador"],
+    "F": ["Netherlands", "Japan", "Ukraine", "Tunisia"],
+    "G": ["Belgium", "Egypt", "Iran", "New Zealand"],
+    "H": ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"],
+    "I": ["France", "Senegal", "Iraq", "Norway"],
+    "J": ["Argentina", "Algeria", "Austria", "Jordan"],
+    "K": ["Portugal", "Jamaica", "Uzbekistan", "Colombia"],
+    "L": ["England", "Croatia", "Panama", "Ghana"]
 }
 
 
